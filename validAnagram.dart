@@ -6,16 +6,29 @@ void main() {
 // sjekk om de er anagram av hverandre eks.nagaram
 // bruk frequency counter algoritme On
 // output true eller false
-validAnagram(String txt1, String txt2) {
-  // sjekk om txt1.length ulik txt2.length returner false om ulik.
-  // lag 2 map og gå gjennom hvert av orda og tell sett inn verdi og antall tegn i hvert map.
-  // bruk for loop og legg til verdi = 1 eller verdi++
-  Map freqCounter1 = {};
-  Map freqCounter2 = {};
-
-  for (var letter = 0; letter < txt1.length; letter++;) {
-    freqCounter1[letter]
-  } 
-  
-  return freqCounter1;
+void main() {
+  print(validAnagram('nilsen','silnen'));
 }
+ validAnagram(String str1, String str2) {
+ if (str1.length != str2.length) {
+  return false;
+ }
+  
+   Map<String, int> freq1 = {};
+   Map freq2 = {};
+   //sjekk frekvensen på tegn og legg til i map
+
+   for (int i = 0; i < str1.length; i++) {
+      freq1[str1[i]] = (freq1[str1[i]] ?? 0) + 1;
+   }
+   
+   for (int i = 0; i < str2.length; i++) {
+      freq2[str2[i]] = (freq2[str2[i]] ?? 0) + 1;
+   }
+   
+   for (freq1.) {
+     if 
+      
+   }
+   
+ }
