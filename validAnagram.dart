@@ -14,10 +14,7 @@ validAnagram(String txt1, String txt2) {
   Map freqCounter2 = {};
 
   for (var letter = 0; letter < txt1.length; letter++;) {
-    if (freqCounter1.containsKey(txt1[letter])) {
-      freqCounter1[txt1[letter]]++;
-      
-    }
+    freqCounter1[letter]
   } 
   
   return freqCounter1;
